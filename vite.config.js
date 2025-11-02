@@ -6,9 +6,9 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/task-vue_dynamic-list-of-posts/',
   plugins: [
     vue(),
-    vueDevTools(),
   ],
   resolve: {
     alias: {
